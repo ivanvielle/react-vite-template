@@ -1,0 +1,166 @@
+/* Base */
+.container {
+    width: 100%;
+}
+
+/* Height */
+.h-min-100 {
+    min-height: 100vh;
+}
+
+.h-max-100 {
+    max-height: 100vh;
+}
+
+.h-25 {
+    height: 25%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-75 {
+    height: 75%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.h-strict-100 {
+    height: 100vh;
+}
+
+/* Width */
+/* <= 640px */
+.w-sm {
+    max-width: var(--breakpoint-sm);
+}
+
+/* <= 768px */
+.w-md {
+    max-width: var(--breakpoint-md);
+}
+
+/* <= 1024px */
+.w-lg {
+    max-width: var(--breakpoint-lg);
+}
+
+/* <= 1280px */
+.w-xl {
+    max-width: var(--breakpoint-xl);
+}
+
+/* <= 1536px */
+.w-xxl {
+    max-width: var((--breakpoint-2xl));
+}
+
+/* 100% */
+.w-max {
+    max-width: 100%;
+}
+
+/* Display */
+.d-block {
+    display: block;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-inline-flex {
+    display: inline-flex;
+}
+
+/* Flex */
+.d-flex {
+    display: flex;
+    gap: var(--space-4);
+}
+
+.d-flex-col {
+    flex-direction: column;
+}
+
+/* Grid */
+.d-grid {
+    display: grid;
+}
+
+.d-grid-col {
+    grid-auto-flow: column;
+}
+
+/* Columns */
+.cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+.cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+.cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+.cols-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+.cols-6 {
+    grid-template-columns: repeat(6, 1fr);
+}
+.cols-7 {
+    grid-template-columns: repeat(7, 1fr);
+}
+.cols-8 {
+    grid-template-columns: repeat(8, 1fr);
+}
+.cols-9 {
+    grid-template-columns: repeat(9, 1fr);
+}
+.cols-10 {
+    grid-template-columns: repeat(10, 1fr);
+}
+.cols-11 {
+    grid-template-columns: repeat(11, 1fr);
+}
+.cols-12 {
+    grid-template-columns: repeat(12, 1fr);
+}
+
+/* Rows */
+.rows-2 {
+    grid-template-rows: repeat(2, auto);
+}
+.rows-3 {
+    grid-template-rows: repeat(3, auto);
+}
+.rows-4 {
+    grid-template-rows: repeat(4, auto);
+}
+.rows-5 {
+    grid-template-rows: repeat(5, auto);
+}
+.rows-6 {
+    grid-template-rows: repeat(6, auto);
+}
+.rows-7 {
+    grid-template-rows: repeat(7, auto);
+}
+.rows-8 {
+    grid-template-rows: repeat(8, auto);
+}
+.rows-9 {
+    grid-template-rows: repeat(9, auto);
+}
+.rows-10 {
+    grid-template-rows: repeat(10, auto);
+}
+.rows-11 {
+    grid-template-rows: repeat(11, auto);
+}
+.rows-12 {
+    grid-template-rows: repeat(12, auto);
+}
