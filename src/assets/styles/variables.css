@@ -32,9 +32,13 @@
 
     --accent: #ffd166;
     --success-500: #2ecc71; /*Form success, alerts*/
+    --success-600: #27ae60;
     --warning-500: #f1c40f; /*Toasts, warnings*/
+    --warning-600: #d4ac0d;
     --error-500: #e74c3c; /*Validation errors*/
+    --error-600: #c0392b;
     --info-500: #3498db; /*Informational messages*/
+    --info-600: #2980b9;
 
     /* Colors */
     --green-700: #388e3c;

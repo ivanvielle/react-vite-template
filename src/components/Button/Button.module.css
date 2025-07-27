@@ -1,0 +1,72 @@
+/* Base */
+.btn {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-semibold);
+    border: none;
+    outline: none;
+    border-radius: var(--space-1);
+    color: var(--white);
+    cursor: pointer;
+}
+
+/* Sizes */
+.btn-sm {
+    padding: var(--space-3);
+}
+
+.btn-md {
+    padding: var(--space-4);
+}
+
+.btn-lg {
+    padding: var(--space-5);
+}
+
+.btn-xl {
+    padding: var(--space-6);
+}
+
+.btn-xxl {
+    padding: var(--space-8);
+}
+
+/* Variants */
+.btn-primary {
+    background-color: var(--primary-500);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-600);
+}
+
+.btn-success {
+    background-color: var(--success-500);
+}
+
+.btn-success:hover {
+    background-color: var(--success-600);
+}
+
+.btn-error {
+    background-color: var(--error-500);
+}
+
+.btn-error:hover {
+    background-color: var(--error-600);
+}
+
+.btn-warning {
+    background-color: var(--warning-500);
+}
+
+.btn-warning:hover {
+    background-color: var(--warning-600);
+}
+
+.btn-info {
+    background-color: var(--info-500);
+}
+
+.btn-info:hover {
+    background-color: var(--info-600);
+}
