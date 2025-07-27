@@ -2,7 +2,6 @@ import useTitle from "../hooks/useTitle";
 import Container from "../components/Container/Container";
 import Button from "../components/Button/Button";
 import Typography from "../components/Typography/Typography";
-import loginBg from "../assets/images/Auth/loginBg.jpg";
 
 function LandingPage() {
     useTitle("APP NAME - tagline");
@@ -11,10 +10,14 @@ function LandingPage() {
         <Container classes="min-h-100" backgroundColor="dark">
             <Container
                 classes="min-h-100 d-flex flex-col gap-1 max-w-xxl w-full"
-                variant="container-xl"
-                backgroundColor="light"
+                variant="container-2xl"
+                backgroundColor="dark"
             >
-                <Container classes="flex-1 px-3">
+                <Container
+                    classes="flex-1 d-flex flex-col flex-center px-3"
+                    backgroundColor="light"
+                >
+                    <Typography variant="h1">Buttons</Typography>
                     <Button classes="m-1" variant="btn-primary" size="btn-sm" label="PRIMARY" />
                     <Button classes="m-1" variant="btn-success" size="btn-md" label="SUCCESS" />
                     <Button classes="m-1" variant="btn-error" size="btn-lg" label="SUCCESS" />
@@ -24,7 +27,11 @@ function LandingPage() {
                     <Button classes="m-1" variant="btn-info" size="btn-xxl" label="INFO" />
                 </Container>
 
-                <Container classes="flex-1 px-3">
+                <Container
+                    classes="flex-1 d-flex flex-col flex-center px-3"
+                    backgroundColor="success"
+                >
+                    <Typography variant="h1">Typography</Typography>
                     <Typography variant="h1">H1</Typography>
                     <Typography variant="h2">H2</Typography>
                     <Typography variant="h3">H3</Typography>
@@ -35,9 +42,20 @@ function LandingPage() {
                     <Typography variant="span">span</Typography>
                 </Container>
 
-                <Container classes="flex-1 px-3"></Container>
+                <Container
+                    classes="flex-1 d-flex flex-col flex-center px-3"
+                    backgroundColor="warning"
+                ></Container>
 
-                <Container classes="flex-1 px-3"></Container>
+                <Container
+                    classes="flex-1 d-flex flex-col flex-center px-3"
+                    backgroundColor="error"
+                ></Container>
+
+                <Container
+                    classes="flex-1 d-flex flex-col flex-center px-3"
+                    backgroundColor="info"
+                ></Container>
             </Container>
         </Container>
     );

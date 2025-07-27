@@ -1,5 +1,6 @@
 /* Base */
 .btn {
+    width: 160px;
     font-size: var(--text-base);
     font-weight: var(--font-weight-semibold);
     border: none;

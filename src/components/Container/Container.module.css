@@ -1,7 +1,8 @@
 /* Container preset */
 .container {
     width: 100%;
-    background-color: transparent;
+    background-color: var(--background);
+    color: var(--text-primary);
 }
 
 .container-sm {
@@ -37,30 +38,30 @@
 
 .dark {
     background-color: var(--gray-900);
-    color: var(--text-primary);
+    color: var(--text-inverse);
 }
 
 .primary {
     background-color: var(--primary-500);
-    color: var(--text-primary);
+    color: var(--text-inverse);
 }
 
 .success {
     background-color: var(--success-500);
-    color: var(--text-primary);
+    color: var(--text-inverse);
 }
 
 .warning {
     background-color: var(--warning-500);
-    color: var(--text-primary);
+    color: var(--text-inverse);
 }
 
 .error {
     background-color: var(--error-500);
-    color: var(--text-primary);
+    color: var(--text-inverse);
 }
 
 .info {
     background-color: var(--info-500);
-    color: var(--text-primary);
+    color: var(--text-inverse);
 }
