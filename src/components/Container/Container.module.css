@@ -1,5 +1,7 @@
-.container-base {
+/* Container preset */
+.container {
     width: 100%;
+    background-color: transparent;
 }
 
 .container-sm {
@@ -25,4 +27,40 @@
 .container-2xl {
     max-width: var(--breakpoint-2xl);
     margin: auto;
+}
+
+/* Backgrounds */
+.light {
+    background-color: var(--white);
+    color: var(--gray-900);
+}
+
+.dark {
+    background-color: var(--gray-900);
+    color: var(--text-primary);
+}
+
+.primary {
+    background-color: var(--primary-500);
+    color: var(--text-primary);
+}
+
+.success {
+    background-color: var(--success-500);
+    color: var(--text-primary);
+}
+
+.warning {
+    background-color: var(--warning-500);
+    color: var(--text-primary);
+}
+
+.error {
+    background-color: var(--error-500);
+    color: var(--text-primary);
+}
+
+.info {
+    background-color: var(--info-500);
+    color: var(--text-primary);
 }

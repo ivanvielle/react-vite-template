@@ -17,15 +17,7 @@
     gap: var(--space-4);
 }
 
-.d-flex-col {
-    flex-direction: column;
-}
-
 /* Grid */
 .d-grid {
     display: grid;
-}
-
-.d-grid-col {
-    grid-auto-flow: column;
 }

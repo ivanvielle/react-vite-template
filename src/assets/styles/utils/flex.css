@@ -1,3 +1,12 @@
+/* Flex Direction */
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
 /* Flex Justify */
 .flex-justify-center {
     justify-content: center;
@@ -32,4 +41,19 @@
 .flex-center {
     justify-content: center;
     align-items: center;
+}
+
+/* Flex Grow, Shrink, Basis */
+.flex-1 {
+    flex: 1;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.flex-shrink-1 {
+    flex-grow: 0;
+    flex-shrink: 1;
 }

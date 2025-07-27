@@ -13,25 +13,9 @@ body {
     line-height: var(--line-height-normal);
 }
 
-/* Headings */
-h1 {
-    font-size: var(--text-4xl);
-    font-weight: var(--font-weight-bold);
-    line-height: var(--line-height-tight);
-}
-
-h2 {
-    font-size: var(--text-3xl);
-    font-weight: var(--font-weight-semibold);
-}
-
-h3 {
-    font-size: var(--text-2xl);
-}
-
-p {
-    font-size: var(--text-base);
-    line-height: var(--line-height-normal);
+html::selection,
+body::selection {
+    background: var(--primary-600);
 }
 
 /* List */
