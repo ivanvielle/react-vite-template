@@ -11,8 +11,6 @@ body {
     font-size: var(--text-base);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-normal);
-    color: var(--text-primary);
-    background-color: var(--background);
 }
 
 /* Headings */

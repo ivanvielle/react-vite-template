@@ -1,0 +1,31 @@
+/* Display */
+.d-block {
+    display: block;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-inline-flex {
+    display: inline-flex;
+}
+
+/* Flex */
+.d-flex {
+    display: flex;
+    gap: var(--space-4);
+}
+
+.d-flex-col {
+    flex-direction: column;
+}
+
+/* Grid */
+.d-grid {
+    display: grid;
+}
+
+.d-grid-col {
+    grid-auto-flow: column;
+}

@@ -1,10 +1,12 @@
 import { Outlet } from "react-router-dom";
-import styles from "./Layout.module.css";
+import Container from "../components/Container/Container";
 
 function RootLayout() {
-    const {} = styles;
-
-    return <div>{Outlet}</div>;
+    return (
+        <Container classes="min-h-100" variant="container-base">
+            <Outlet />
+        </Container>
+    );
 }
 
 export default RootLayout;

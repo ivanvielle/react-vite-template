@@ -1,3 +1,14 @@
 /* Imports */
 @import "./assets/styles/variables.css";
 @import "./assets/styles/globals.css";
+
+/* utils */
+@import "./assets/styles/utils/border.css";
+@import "./assets/styles/utils/display.css";
+@import "./assets/styles/utils/flex.css";
+@import "./assets/styles/utils/gap.css";
+@import "./assets/styles/utils/grid.css";
+@import "./assets/styles/utils/height.css";
+@import "./assets/styles/utils/margin.css";
+@import "./assets/styles/utils/padding.css";
+@import "./assets/styles/utils/width.css";
