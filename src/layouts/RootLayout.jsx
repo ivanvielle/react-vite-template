@@ -3,7 +3,7 @@ import Container from "../components/Container/Container";
 
 function RootLayout() {
     return (
-        <Container classes="min-h-100" variant="container-base">
+        <Container classes="min-h-100" backgroundColor="transparent">
             <Outlet />
         </Container>
     );

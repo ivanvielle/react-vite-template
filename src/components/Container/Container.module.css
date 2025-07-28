@@ -1,10 +1,4 @@
-/* Container preset */
-.container {
-    width: 100%;
-    background-color: var(--background);
-    color: var(--text-primary);
-}
-
+/* Width */
 .container-sm {
     max-width: var(--breakpoint-sm);
     margin: auto;
@@ -31,37 +25,60 @@
 }
 
 /* Backgrounds */
+.inherit {
+    background-color: inherit;
+    color: inherit;
+}
+
+.transparent {
+    background-color: transparent;
+    color: inherit;
+}
+
 .light {
     background-color: var(--white);
-    color: var(--gray-900);
+    color: var(--black);
 }
 
 .dark {
-    background-color: var(--gray-900);
-    color: var(--text-inverse);
+    background-color: var(--black);
+    color: var(--white);
 }
 
 .primary {
     background-color: var(--primary-500);
-    color: var(--text-inverse);
+    color: var(--white);
 }
 
 .success {
     background-color: var(--success-500);
-    color: var(--text-inverse);
+    color: var(--white);
 }
 
 .warning {
     background-color: var(--warning-500);
-    color: var(--text-inverse);
+    color: var(--white);
 }
 
 .error {
     background-color: var(--error-500);
-    color: var(--text-inverse);
+    color: var(--white);
 }
 
 .info {
     background-color: var(--info-500);
-    color: var(--text-inverse);
+    color: var(--white);
+}
+
+/* Fade In */
+.fading {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    will-change: opacity, transform;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
 }

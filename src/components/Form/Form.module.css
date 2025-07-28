@@ -1,0 +1,34 @@
+/* Base */
+.form {
+    border-radius: var(--space-1);
+    box-shadow: 2px 2px 2px black;
+}
+
+/* Variants */
+.form-light {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.form-dark {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-primary {
+    background-color: rgba(70, 143, 175, 0.5);
+}
+
+.form-success {
+    background-color: rgba(46, 204, 113, 0.5);
+}
+
+.form-warning {
+    background-color: rgba(241, 196, 15, 0.5);
+}
+
+.form-error {
+    background-color: rgba(231, 76, 60, 0.5);
+}
+
+.form-info {
+    background-color: rgba(52, 152, 219, 0.5);
+}

@@ -1,0 +1,45 @@
+/* Color */
+.text-default {
+    color: var(--text-default);
+}
+
+.text-primary {
+    color: var(--primary-500);
+}
+
+.text-success {
+    color: var(--success-500);
+}
+
+.text-warning {
+    color: var(--warning-500);
+}
+
+.text-error {
+    color: var(--error-500);
+}
+
+.text-info {
+    color: var(--info-500);
+}
+
+.text-light {
+    color: var(--white);
+}
+
+.text-dark {
+    color: var(--black);
+}
+
+/* Alignment */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}

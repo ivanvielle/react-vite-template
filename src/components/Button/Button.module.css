@@ -1,6 +1,5 @@
 /* Base */
 .btn {
-    width: 160px;
     font-size: var(--text-base);
     font-weight: var(--font-weight-semibold);
     border: none;
@@ -27,7 +26,7 @@
     padding: var(--space-6);
 }
 
-.btn-xxl {
+.btn-2xl {
     padding: var(--space-8);
 }
 
