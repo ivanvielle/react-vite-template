@@ -1,43 +1,31 @@
 /* Base */
-.formContainer {
+.formInputContainer {
     position: relative;
-    margin: 2rem;
-    width: 250px;
-    border: 1px solid white;
 }
 
 .formInput {
-    font-size: 16px;
-    padding: 18px 14px 6px;
-    border: 1px solid white;
-    border-radius: 4px;
+    font-size: var(--text-base);
+    padding: var(--space-3);
+    border: 1px solid var(--white);
+    border-radius: var(--space-1);
     outline: none;
-    width: 100%;
-    transition: border-color 0.3s;
     background-color: transparent;
+    box-shadow: 0 0 2px var(--black);
 }
 
-.formInput:focus {
-    border-color: white;
-}
-
-.formLabel {
+.iconContainer {
     position: absolute;
-    top: 10px;
-    left: 14px;
-    background-color: transparent;
-    color: black;
-    font-size: 16px;
-    transition: all 0.2s ease;
-    pointer-events: none;
-    padding: 0 4px;
+    top: var(--space-2);
 }
 
-.formInput:focus + .formLabel,
-.formInput:not(:placeholder-shown) + .formLabel {
-    top: -8px;
-    left: 8px;
-    font-size: 12px;
-    color: black;
-    background-color: white;
+.inputIconStart {
+    left: var(--space-2);
+}
+
+.inputIconStart + .formInput {
+    padding-left: var(--space-10);
+}
+
+.inputIconEnd {
+    right: var(--space-2);
 }

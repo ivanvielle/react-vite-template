@@ -32,3 +32,7 @@
 .form-info {
     background-color: rgba(52, 152, 219, 0.5);
 }
+
+.form-transparent {
+    background-color: transparent;
+}

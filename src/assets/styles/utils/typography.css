@@ -31,6 +31,10 @@
     color: var(--black);
 }
 
+.text-inherit {
+    color: inherit;
+}
+
 /* Alignment */
 .text-left {
     text-align: left;
@@ -42,4 +46,41 @@
 
 .text-right {
     text-align: right;
+}
+
+/* Font sizes */
+.text-xs {
+    font-size: var(--text-xs) !important;
+}
+
+.text-sm {
+    font-size: var(--text-sm) !important;
+}
+
+.text-base {
+    font-size: var(--text-base) !important;
+}
+
+.text-lg {
+    font-size: var(--text-lg) !important;
+}
+
+.text-xl {
+    font-size: var(--text-xl) !important;
+}
+
+.text-2xl {
+    font-size: var(--text-2xl) !important;
+}
+
+.text-3xl {
+    font-size: var(--text-3xl) !important;
+}
+
+.text-4xl {
+    font-size: var(--text-4xl) !important;
+}
+
+.text-5xl {
+    font-size: var(--text-5xl) !important;
 }
