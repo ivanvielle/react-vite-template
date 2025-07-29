@@ -1,4 +1,3 @@
-import useTitle from "../hooks/useTitle";
 import Container from "../components/Container/Container";
 import FadeContainer from "../components/Container/FadeContainer";
 import Button from "../components/Button/Button";
@@ -6,24 +5,9 @@ import Typography from "../components/Typography/Typography";
 import Form from "../components/Form/Form";
 import FormInput from "../components/Form/Input/FormInput";
 import loginBg from "../assets/images/Auth/loginBg.jpg";
-import { FaBeer } from "react-icons/fa";
-import { useState, useRef } from "react";
+import Loader from "../components/Loader/Loader";
 
 function LandingPage() {
-    useTitle("APP NAME - tagline");
-    const inputPasswordRef = useRef();
-    const [pType, setPType] = useState("password");
-
-    const handleInputType = () => {
-        console.log(inputRef.current.type);
-
-        if (inputRef.current.type === "password") {
-            setPType("text");
-        } else {
-            setPType("password");
-        }
-    };
-
     return (
         <Container
             classes="min-h-100 d-flex flex-col gap-1 w-full px-3"
@@ -102,7 +86,9 @@ function LandingPage() {
                         formBg="form-light"
                     >
                         <Container classes="p-2" backgroundColor="inherit">
-                            <Typography variant="h2">LOGIN</Typography>
+                            <Typography classes="text-center" variant="h2">
+                                LOGIN
+                            </Typography>
                         </Container>
 
                         <Container
@@ -110,26 +96,21 @@ function LandingPage() {
                             backgroundColor="inherit"
                         >
                             <FormInput
-                                classes="w-full"
+                                width="w-full"
                                 type="text"
                                 name="email"
                                 placeholder="Enter email / username"
-                                icon="FaBeer"
-                                iconSize={30}
+                                icon="FaAddressCard"
                                 iconPosition="start"
-                                iconColor="red"
+                                iconColor="green"
                             />
                             <FormInput
-                                ref={inputPasswordRef}
-                                classes="w-full text-xs"
                                 type="password"
                                 name="loginPassword"
                                 placeholder="Enter password"
-                                icon="FaBeer"
-                                iconSize={30}
+                                icon="FaAddressCard"
                                 iconPosition="end"
                                 iconColor="blue"
-                                iconFunc={handleInputType}
                             />
                         </Container>
                     </Form>
@@ -139,7 +120,9 @@ function LandingPage() {
                         formBg="form-error"
                     >
                         <Container classes="p-2" backgroundColor="inherit">
-                            <Typography variant="h2">REGISTER</Typography>
+                            <Typography classes="text-center" variant="h2">
+                                REGISTER
+                            </Typography>
                         </Container>
 
                         <Container
@@ -147,10 +130,12 @@ function LandingPage() {
                             backgroundColor="inherit"
                         >
                             <FormInput
-                                classes="w-full"
                                 type="password"
                                 name="registerPassword"
                                 placeholder="Enter password"
+                                icon="FaAddressCard"
+                                iconPosition="end"
+                                iconColor="inherit"
                             />
                         </Container>
                     </Form>
@@ -160,7 +145,9 @@ function LandingPage() {
             <FadeContainer
                 classes="h-full min-h-100 d-flex flex-col flex-center"
                 backgroundColor="error"
-            ></FadeContainer>
+            >
+                <Loader />
+            </FadeContainer>
 
             <FadeContainer
                 classes="h-full min-h-100 d-flex flex-col flex-center"

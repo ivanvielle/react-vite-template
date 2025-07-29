@@ -1,34 +1,34 @@
 /* Color */
 .text-default {
-    color: var(--text-default);
+    color: var(--text-default) !important;
 }
 
 .text-primary {
-    color: var(--primary-500);
+    color: var(--primary-500) !important;
 }
 
 .text-success {
-    color: var(--success-500);
+    color: var(--success-500) !important;
 }
 
 .text-warning {
-    color: var(--warning-500);
+    color: var(--warning-500) !important;
 }
 
 .text-error {
-    color: var(--error-500);
+    color: var(--error-500) !important;
 }
 
 .text-info {
-    color: var(--info-500);
+    color: var(--info-500) !important;
 }
 
 .text-light {
-    color: var(--white);
+    color: var(--white) !important;
 }
 
 .text-dark {
-    color: var(--black);
+    color: var(--black) !important;
 }
 
 .text-inherit {

@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import * as FaIcons from "react-icons/fa";
 import * as MdIcons from "react-icons/md";
 
@@ -6,7 +7,8 @@ const iconMap = {
     Md: MdIcons,
 };
 
-function DynamicIcon({ iconName, size, color, func }) {
+function DynamicIcon({ classes, iconName, size, color }) {
+    const iconClass = classNames(classes);
     const prefix = iconName.slice(0, 2); // e.g. "Fa"
     const iconPack = iconMap[prefix];
 
@@ -14,7 +16,7 @@ function DynamicIcon({ iconName, size, color, func }) {
 
     if (!IconComponent) return <span>🚫</span>;
 
-    return <IconComponent size={size} color={color} />;
+    return <IconComponent className={iconClass} size={size} color={color} />;
 }
 
 export default DynamicIcon;
