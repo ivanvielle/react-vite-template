@@ -10,8 +10,8 @@ import Loader from "../components/Loader/Loader";
 function SamplePage() {
     return (
         <Container
-            classes="min-h-100 d-flex flex-col gap-1 w-full px-3"
-            width="container-2xl"
+            classes="min-h-100 d-flex flex-col gap-1 max-w-3xl px-3"
+            width="container-3xl"
             backgroundColor="dark"
         >
             <FadeContainer
@@ -85,14 +85,14 @@ function SamplePage() {
                         classes="h-full min-h-100 h-sm-full w-full border-3 text-dark d-flex flex-col"
                         formBg="form-light"
                     >
-                        <Container classes="p-2" backgroundColor="inherit">
+                        <Container classes="p-2 w-full" backgroundColor="inherit">
                             <Typography classes="text-center" variant="h2">
                                 LOGIN
                             </Typography>
                         </Container>
 
                         <Container
-                            classes="p-2 flex-1 d-flex flex-col gap-3"
+                            classes="p-2 w-full flex-1 d-flex flex-col gap-3"
                             backgroundColor="inherit"
                         >
                             <FormInput
@@ -119,14 +119,14 @@ function SamplePage() {
                         classes="h-full min-h-100 h-sm-full w-full border-3 d-flex flex-col"
                         formBg="form-error"
                     >
-                        <Container classes="p-2" backgroundColor="inherit">
+                        <Container classes="p-2 w-full" backgroundColor="inherit">
                             <Typography classes="text-center" variant="h2">
                                 REGISTER
                             </Typography>
                         </Container>
 
                         <Container
-                            classes="p-2 flex-1 d-flex flex-col gap-1"
+                            classes="p-2 w-full flex-1 d-flex flex-col gap-1"
                             backgroundColor="inherit"
                         >
                             <FormInput

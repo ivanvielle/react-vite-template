@@ -1,0 +1,23 @@
+.appLink {
+    background-color: transparent;
+}
+
+.primary {
+    color: var(--primary-500);
+}
+
+.success {
+    color: var(--success-500);
+}
+
+.warning {
+    color: var(--warning-500);
+}
+
+.error {
+    color: var(--error-500);
+}
+
+.info {
+    color: var(--info-500);
+}

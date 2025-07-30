@@ -1,0 +1,20 @@
+/* Base */
+.navDesktop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--transparent);
+    transition: background-color 0.3s ease;
+    z-index: 999;
+}
+
+.navScrolled {
+    background-color: var(--background);
+}
+
+@media (max-width: 768px) {
+    .navDesktop {
+        display: none;
+    }
+}

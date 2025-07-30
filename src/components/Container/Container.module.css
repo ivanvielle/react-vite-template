@@ -1,27 +1,39 @@
+/* Base */
+.container {
+    margin: auto;
+}
+
 /* Width */
 .container-sm {
     max-width: var(--breakpoint-sm);
-    margin: auto;
 }
 
 .container-md {
     max-width: var(--breakpoint-md);
-    margin: auto;
 }
 
 .container-lg {
     max-width: var(--breakpoint-lg);
-    margin: auto;
 }
 
 .container-xl {
     max-width: var(--breakpoint-xl);
-    margin: auto;
 }
 
 .container-2xl {
     max-width: var(--breakpoint-2xl);
-    margin: auto;
+}
+
+.container-3xl {
+    max-width: var(--breakpoint-3xl);
+}
+
+.container-4xl {
+    max-width: var(--breakpoint-4xl);
+}
+
+.container-full {
+    max-width: 100%;
 }
 
 /* Backgrounds */

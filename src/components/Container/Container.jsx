@@ -20,7 +20,12 @@ function Container({
               backgroundPosition: bgPosition,
           };
 
-    const containerClass = classNames(styles[width], styles[backgroundColor], classes);
+    const containerClass = classNames(
+        styles.container,
+        styles[width],
+        styles[backgroundColor],
+        classes
+    );
 
     return (
         <div className={containerClass} style={containerBgImgStyle}>
